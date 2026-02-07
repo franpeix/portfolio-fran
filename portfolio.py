@@ -106,7 +106,7 @@ if seccion == "Sobre Mí": # Asegurate que este texto coincida con tu menú late
         """)
         
         st.success("🎓 **Educación**")
-        st.markdown("**Univ. de Buenos Aires (UBA)** \n *Lic. en Cs. de Datos*")
+        st.markdown("**Univ. de Buenos Aires (UBA)     ** \n *Lic. en Ciencias de Datos*")
 
 # --- SECCIÓN: PROYECTOS ---
 elif seccion == "Proyectos":
@@ -365,5 +365,6 @@ elif seccion == "Contacto":
     # Pie de página centrado
 
     st.markdown("<div style='text-align: center'>Desarrollado con ❤️ y 🐍 Python por Francisco</div>", unsafe_allow_html=True)
+
 
 
