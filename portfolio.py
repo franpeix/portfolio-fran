@@ -57,7 +57,7 @@ with st.sidebar:
 
 # --- BOTÓN DE DESCARGA DE CV ---
 # Para que funcione, tenés que poner tu archivo PDF en la misma carpeta
-st.link_button("📄 Descargar mi CV", "https://drive.google.com/file/d/1qiMh6Zk--kHo3uoHwp9MQjBfBiGXmz8I/view?usp=sharing")
+st.link_button("📄 Ver mi Currículum Vitae", "https://drive.google.com/file/d/1qiMh6Zk--kHo3uoHwp9MQjBfBiGXmz8I/view?usp=sharing")
 
 # --- SECCIÓN: SOBRE MÍ ---
 if seccion == "Sobre Mí": # Asegurate que este texto coincida con tu menú lateral
@@ -363,4 +363,5 @@ elif seccion == "Contacto":
     st.write("---")
     
     # Pie de página centrado
+
     st.markdown("<div style='text-align: center'>Desarrollado con ❤️ y 🐍 Python por Francisco</div>", unsafe_allow_html=True)
