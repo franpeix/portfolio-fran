@@ -11,9 +11,12 @@ st.set_page_config(
 # --- OCULTAR ELEMENTOS DE LA INTERFAZ ---
 hide_st_style = """
             <style>
-            #MainMenu {visibility: hidden;}
+            /* Ocultamos solo el pie de página 'Made with Streamlit' */
             footer {visibility: hidden;}
-            header {visibility: hidden;}
+            
+            /* DEJAMOS VISIBLE EL MENÚ PARA PODER ABRIR LA BARRA LATERAL */
+            /* #MainMenu {visibility: visible;} */
+            /* header {visibility: visible;} */
             </style>
             """
 st.markdown(hide_st_style, unsafe_allow_html=True)
@@ -365,6 +368,7 @@ elif seccion == "Contacto":
     # Pie de página centrado
 
     st.markdown("<div style='text-align: center'>Desarrollado con ❤️ y 🐍 Python por Francisco</div>", unsafe_allow_html=True)
+
 
 
 
